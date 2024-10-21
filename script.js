@@ -1,3 +1,35 @@
+//para adicionar o modo escuro se estiver claro fica escuro e vice-versa
+const $html = document.querySelector('html') //pegar toda a página
+const $checkbox = document.querySelector('#switch')//pegar o checkbox
+
+$checkbox.addEventListener("change", function(){ //evento de marcar o checkbox
+    $html.classList.toggle('dark-mode')
+})
+
+
+
+/*animação do texto e do bg
+const button = document.getElementById('toggleAnimation');
+const body = document.body;
+const texts = document.querySelectorAll('.animated-text');
+
+let animationsActive = false;
+
+button.addEventListener('click', () => {
+    animationsActive = !animationsActive; // Alterna o estado das animações
+
+    if (animationsActive) {
+        button.textContent = "Desativar Animação"; // Altera o texto do botão
+        texts.forEach(text => text.classList.add('active')); // Ativa a animação do texto
+        body.classList.add('background-active'); // Ativa a animação do background
+    } else {
+        button.textContent = "Ativar Animação"; // Altera o texto do botão
+        texts.forEach(text => text.classList.remove('active')); // Desativa a animação do texto
+        body.classList.remove('background-active'); // Desativa a animação do background
+    }
+});
+*/
+
 function formacoes(){
     const formacoes = document.getElementsByClassName('formacoes')[0];
     if(formacoes.style.display == 'none'){
