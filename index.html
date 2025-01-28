@@ -1,174 +1,210 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <title>Document</title>
 </head>
+
 <body>
-<header>
-        <h1 class="animated-text">Iago Boettge</h1> 
-        <label for="switch"><input type="checkbox" id="switch"> Dark Mode</label>
-        <button id="toggleAnimation">Ativar Animação</button>
-</header>
 
-<main>
+    <header>
+        <h1 class="titulo">Iago Boettge</h1>
+    </header>
+
+    <div class="container">
+        <div class="subtitulo" onclick="mostrarinfo('info1')">Personal Information
+        </div>
+        <div class="informacao" id="info1">
+            <p> Iagoboettge@gmail.com</p>
+            <p>+55 51 99674-8449</p>
+        </div>
 
 
-    <button type="button" onclick="formacoes()"><h1 class="animated-text">Formações Acadêmicas</h1></button>
-    <section class="formacoes">
+
+
+        <div class="subtitulo" onclick="mostrarinfo('info2')">Languages</div>
+        <div class="informacao" id="info2">
             <ul>
-                <li>
-                    <p class="animated-text">Graduação em Ciência da Computação - La Salle [2024/2 - 2028/2]</p>
+                <li>Portuguese (Native)</li>
+                <li>English (advanced)</li>
+                <li>Spanish (Basic)</li>
+            </ul>
+        </div>
+
+
+
+        <div class="subtitulo" onclick="mostrarinfo('info3')">Academic professiencies
+        </div>
+        <div class="informacao" id="info3">
+            <ul>
+                <li>Mathematics</li>
+                <li>Programming</li>
+                <li>Algoritms</li>
+                <li>Logic</li>
+            </ul>
+        </div>
+
+
+        <div class="subtitulo" onclick="mostrarinfo('info4')">programming skills
+        </div>
+        <div class="informacao" id="info4">
+            <ul>
+                <li>Object Oriented Programming</li>
+                <li>HTML, CSS , JS , C#</li>
+                <li>SQL</li>
+                <li>GIT, GITHUB</li>
+                <li>Project management</li>
+                <li>VScode</li>
+                <li>Documentation</li>
+                <li>Structured code</li>
+                <li>Program modularization</li>
+            </ul>
+        </div>
+
+
+
+        <div class="subtitulo" onclick="mostrarinfo('info5')">
+            Complementary Skills
+        </div>
+        <div class="informacao" id="info5">
+            <ul>
+                <li>Continuous learning</li>
+                <li>Communication</li>
+                <li>Proactivity</li>
+                <li>Flexibility</li>
+                <li>Creativity</li>
+                <li>Curiosity</li>
+                <li>Teamwork and colaboration
                 </li>
-                <li>
-                    <p class="animated-text">Curso Técnico de Informática - QI Faculdade & Escola Técnica- Concluido</p>
+                <li>Structured code</li>
+                <li>Deadline-driven</li>
+            </ul>
+        </div>
+        </header>
+
+
+
+
+
+
+       <!-- <h2>Objective</h2>
+        <p>Aspiring to join SAP to develop and grow across
+            multiple areas of technology, gaining valuable
+            knowledge and experience to become a well-rounded
+            professional. Driven by a passion for continuous learning
+            and innovation, I aim to contribute to SAP's success while
+            advancing my own skills and career, fostering mutual growth
+            and excellence.</p>
+
+
+
+        <h2>Academic History</h1>
+            <p>Bachelors in Computer Science</p>
+            <p>La Salle - Canoas, RS, Brazil </p>
+            <p> Oct 2024 - Current date</p>
+            <p>Technical Course in IT</p>
+            <p>QI Faculdade e Escola Técnica- Canoas, RS, Brazil</p>
+            <p>Jan 2023 - July 2024</p>
+            <ul>
+                <li>Algorithms and Programming Logic: Introduction to the basic concepts of logic and algorithm
+                    development;
+                </li>
+                <li>Hardware Fundamentals: Study of the physical components of computers and their functionalities;</li>
+                <li>Operating Systems: Concepts and features of major operating systems;
+                </li>
+                <li>Introduction to Computer Networks: Basic principles of networking and data communication;
+                </li>
+                <li>Back-End Web Development: Server programming and database integration;
+                </li>
+                <li>Mobile Application Development: Creating applications for mobile platforms;</li>
+                <li>Software Engineering: Processes, methodologies, and tools for developing quality software;</li>
+                <li>Information Security: Principles and practices for safeguarding data and systems;</li>
+                <li>Object-Oriented Programming: Concepts and applications of object-oriented programming;
+                </li>
+                <li>Front-End Web Development: Technologies such as HTML, CSS, and JavaScript for creating web
+                    interfaces;
+                </li>
+                <li>Relational Databases: Modeling, creation, and manipulation of relational databases.</li>
+            </ul>
+
+
+
+            <h2>Professional experience</h2>
+            <p> Administrative | Intern: GP Pneus RS | [November 2023 - September 2024]</p>
+            <ul>
+                <li>Order tracking and monitoring;</li>
+                <li>Invoice tracking;</li>
+                <li>Scheduling collections and quotations;</li>
+                <li>Liaising with third-party carriers;
+                </li>
+                <li>Issuing shipping manifests;
+                </li>
+                <li>Printing and verifying orders.
                 </li>
             </ul>
-          
-        </section>
 
-        <button type="button" onclick="conhecimentos()"><h1 class="animated-text">Conhecimentos</h1></button>
-        <section class="conhecimentos">
-
-                <ul>
-                <li>
-                    <p class="animated-text">Aplicações de Escritório: Microsoft Word, Microsoft Outlook, Microsoft Excel,
-                        Microsoft PowerPoint;</p>
+            <p>Barista | Quiero Café | [June 2023 - November 2023]</p>
+            <ul>
+                <li>Opening and closing cash register;</li>
+                <li>Cash counting;</li>
+                <li>Barista and bartender duties;</li>
+                <li>Customer service;
                 </li>
-                <li>
-                    <p class="animated-text">Idiomas: Inglês (Avançado), Italiano (Básico), Espanhol (Básico) e Português (Nativo);</p>
-                </li>
-                <li>
-                    <p class="animated-text">Linguagens de Programação: Javascript;</p>
-                </li>
-                <li>
-                    <p class="animated-text">Linguagens de Marcação: HTML e CSS.</p>
-                </li>
+                <li>Cleaning and sanitization;</li>
+                <li>Preparation of beverages and cocktails;</li>
+                <li>Stock replenishment for the bar.</li>
             </ul>
-        </section>
 
-        <button type="button" onclick="certificados()"><h1 class="animated-text">Certificados</h1></button>
-        <section class="certificados">
-          <ul>
-                <li>
-                    <p class="animated-text">CURSO FRONT-END COMPLETO 2.0 - danki.code</p>
+            <p>Warehouse Operations | Intern: Canoas City Hall | [October 2022 - January 2023]</p>
+            <ul>
+                <li>Administrative memorandums management;
                 </li>
-                <li>
-                    <p class="animated-text">CURSO HTML5 E CSS3: MÓDULO 1 DE 5 [40 HORAS] - cursoemvideo</p>
+                <li>Order tracking and monitoring;
                 </li>
-                <li>
-                    <p class="animated-text">CURSO DE GIT E GITHUB COMPLETO - danki.code</p>
+                <li>Inventory counting;
                 </li>
-                <li>
-                    <p class="animated-text">JAVASCRIPT [40 HORAS] - cursoemvideo</p>
-                </li>
-                <li>
-                    <p class="animated-text">CURSO JAVASCRIPT COMPLETO - danki.code</p>
-                </li>
-                <li>
-                    <p class="animated-text">CURSO DE REACTJS - danki.code</p>
-                </li>
-                <li>
-                    <p class="animated-text">Construct 2 - Game Design e Criação de Jogos Sem Codificação - Udemy
-                    </p>
-                </li>
+                <li>Phone assistance;</li>
+                <li>User support;</li>
+                <li>Incident management;</li>
+                <li>Recording time logs.</li>
             </ul>
-        </section>
 
 
-        <button type="button" onclick="experiencia()"> <h1 class="animated-text">Experiência</h1></button>
-        <section class="experiencia">
-           
-            <div class="gp">
-                <h1 class="animated-text">Administrativo | Estágio: GP Pneus RS | [Novembro de 2023 - Setembro de 2024]</h1>
-                <ul>
-                    <li>
-                        <p class="animated-text">Acompanhamento de pedidos;</p>
-                    </li>
-                    <li>
-                        <p class="animated-text">Ratreio de notas;</p>
-                    </li>
-                    <li>
-                        <p class="animated-text">Agendamento de coletas e cotação;</p>
-                    </li>
-                    <li>
-                        <p class="animated-text">Contato com transportadoras terceirizadas;</p>
-                    </li>
-                    <li>
-                        <p class="animated-text">Emissão de romaneios;</p>
-                    </li>
-                    <li>
-                        <p class="animated-text">Impressão e checagem de pedidos.</p>
-                     </li>
-                 </ul>
-            </div>
 
-            <div class="quiero">
-                <h1 class="animated-text">Barista | Quiero Café | [Junho de 2023 - Novembro de 2023]</h1>
-                <ul>
-                    <li>
-                        <p class="animated-text">Abertura e Fechamento de caixa;</p>
-                    </li>
-                    <li>
-                        <p class="animated-text">Contagem de caixa;</p>
-                    </li>
-                    <li>
-                        <p class="animated-text">Funções de barista e bartender;</p>
-                    </li>
-                    <li>
-                        <p class="animated-text">Atendimento ao cliente; </p>
-                    </li>
-                    <li>
-                        <p class="animated-text">Higienização e limpeza;</p>
-                    </li>
-                    <li>
-                        <p class="animated-text">Preparação de bebidas e drinks;</p>
-                    </li>
-                    <li>
-                        <p class="animated-text">Reposição de itens do bar</p>
-                    </li>
-                </ul>
-            </div>
 
-            <div class="pref">
-                <h1 class="animated-text">Almoxarifado | Estágio: Prefeitura de Canoas | [Outubro de 2022 - Janeiro de 2023]</h1>
-                
-                    <ul>
-                        <li>
-                            <p class="animated-text">Administração de memorandos;</p>
-                        </li>
-                        <li>
-                            <p class="animated-text">Acompanhamento de pedidos;</p>
-                        </li>
-                        <li>
-                            <p class="animated-text">Contagem de estoque;</p>
-                        </li>
-                        <li>
-                            <p class="animated-text">Atendimento telefônico;</p>
-                        </li>
-                        <li>
-                            <p class="animated-text">Atendimento ao usuário;</p>
-                        </li>
-                        <li>
-                            <p class="animated-text">Gestão de chamados;</p>
-                        </li>
-                        <li>
-                            <p class="animated-text">Registro de pontos</p>
-                        </li>
-                    </ul>
-            </div>
-        </section>
+            <h2>complementary information</h2>
+            <ul>
+                <li>COMPLETE FRONT-END COURSE 2.0;</li>
+                <li>COMPLETE GIT AND GITHUB COURSE;</li>
+                <li>COMPLETE JAVASCRIPT COURSE;</li>
+                <li>REACTJS COURSE</li>
+            </ul>
+            <p> certificates | Danki.code</p>
 
-</main>
+            <ul>
+                <li>HTML5 AND CSS3 COURSE: MODULE 1 OF 5 [40 HOURS];
+                </li>
+                <li> JAVASCRIPT [40 HOURS] </li>
+            </ul>
+            <p> certificates | Cursoemvideo </p>
 
-<footer class="footer">
-    <p>iagoboettge@gmail.com</p>
-    <p>+5551996748449</p>
-    <p> www.linkedin.com/in/iago-boetgge</p>
-</footer>
-    
-<script src="script.js"></script>
+
+
+
+-->
 </body>
+<script>
+function mostrarinfo(id){
+    var info = document.getElementById(id);
+    if(info.style.display === "none" || info.style.display === ''){
+        info.style.display = "block";
+    }else{
+        info.style.display = "none";
+    }
+}
+</script>
+
 </html>

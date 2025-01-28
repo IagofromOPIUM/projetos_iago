@@ -1,128 +1,46 @@
-
-:root{
-    --body-bg: white;
-    --body-color: black;
-    --caixas-bg: rgb(22, 22, 22);
-   
-}
-
-
-
-.dark-mode:root{
-    --body-bg: black;
-    --body-color: white;
-    --caixas-bg: rgb(66, 66, 66);
-  
-}
-
-
-
-*{ margin: 0;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-
-body{
-    background-color: var(--body-bg);
-    color: var(--body-color);
-    transition: background-color 0.5s ease;
-   
-}
-
-@keyframes colorAnimation {
-    0% {
-        color: #cf2525; /* Cor inicial */
-    }
-    50% {
-        color: #00c8ff; /* Cor intermediária */
-    }
-    100% {
-        color: #8000ff; /* Retorna para a cor inicial */
-    }
-}
-
-@keyframes backgroundAnimation {
-    0% {
-        background-color: #ff0000; /* Cor inicial */
-    }
-    50% {
-        background-color: #0446a3; /* Cor intermediária */
-    }
-    100% {
-        background-color: #4d04c2; /* Retorna para a cor inicial */
-    }
-}
-
-.active {
-    animation: colorAnimation 3s infinite alternate; /* Animação do texto */
-}
-
-.background-active {
-    animation: backgroundAnimation 10s infinite alternate; /* Animação do background */
-}
-
-
-
-header{
-    margin: 30px 0px 50px;
-    text-align: center;
-}
-
-
-main{
-    display: flex;
+*{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     margin: 0;
-    flex-direction: column;
-    gap: 10px;
-    margin-bottom: 300px;
-    height: 100%;
+    padding: 0;
+   background-color: rgb(236, 244, 252);
+   
 }
 
+.titulo{
+    text-align: center;
+    margin: 40px 0 70px;
+    color:rgb(34, 31, 31);
+}
 
- main h1{
-    margin-top: 10px;
+.container{
     margin-left: 20px;
- }
+    display: flex;
+    flex-direction: column;
+    
+    
+}
 
+.subtitulo{
+    cursor: pointer;
+    background-color: rgb(250, 89, 89);
+    width: 200px;
+    border-radius: 20px;
+    margin-top: 100px;
+    color: rgb(34, 31, 31);
+    display: flex;
+    justify-content: center;  /* Centraliza horizontalmente */
+    align-items: center;      /* Centraliza verticalmente */
+   
 
+}
 
-main p{
+.informacao{
+    display: none;
+    margin-bottom: 100px;
     margin-top: 10px;
-}
-
-
-
-.formacoes,
-.conhecimentos,
-.certificados,
-.experiencia{
-   display: none;
-  
-}
-
-
-
-button{
-    border-radius: 10px;
+    color:  rgb(212, 23, 23);
+   margin-left: 30px;
    
     
-}
+}   
 
-
-
-footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
-    gap: 20px;
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-    background-color: #a9a9a9;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    
-    
-}
