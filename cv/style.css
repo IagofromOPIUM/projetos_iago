@@ -6,41 +6,69 @@
    
 }
 
-.titulo{
-    text-align: center;
-    margin: 40px 0 70px;
-    color:rgb(34, 31, 31);
-}
-
 .container{
-   display: flex;/*garantir que os itens fiquem na horizontal*/
-   align-items: center;/*Alinha na vertical*/
-   flex-direction: column;
-   gap: 50px; /* Adiciona um espaço entre os elementos */
+   text-align: center;
 }
 
-.subtitulo{
-    cursor: pointer;
-    background-color: rgb(250, 89, 89);
-    width: 200px;
-    border-radius: 20px;
-    color: rgb(34, 31, 31);
+
+.subtitulo p {
+    font-size: 30px;
+  margin-left: 15px;
+  margin-top: 20px;
+  margin-right: 50px;
+  background-color: rgb(243, 28, 28);
+  border-radius: 35px;
+  color: rgb(255, 255, 255);
+  padding: 15px;
+  width: 150px;
+  text-align: center; 
+  margin-left: auto;
+  margin-right: auto;
+    
+}
+.info-p{
+    display: flex;
+    gap: 10px;
+    font-size: 25px;
+    margin-top: 35px;
+   justify-content: center ;
+}
+
+
+.obj{
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 30px;
     text-align: center;
-    padding: 10px;
+}
+.obj-info{
+    font-size: 25px;
+    text-align: center;
     
-   
+}
 
-}
-a{
-    text-decoration: none;
-    color: rgb(34, 31, 31);
-}
-.informacao{
-    display: block; /* Faz com que a informação seja exibida*/
-    padding: 10px;
-    color:  rgb(212, 23, 23);
-   
-   
+.sub p{
+    font-size: 30px;
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-right: 50px;
+    background-color: rgb(243, 28, 28);
+    border-radius: 25px;
+    color: rgb(255, 255, 255);
+    padding: 5px;
+    width: 250px;
+    text-align: center; 
+    margin-left: auto;
+    margin-right: auto;
     
-}   
+}
+
+.info-l{
+    display: flex;
+    gap: 10px;
+    font-size: 25px;
+    margin-top: 35px;
+   justify-content: center ;
+    
+}
 
