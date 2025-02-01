@@ -6,11 +6,6 @@
    
 }
 
-.container{
-   text-align: center;
-}
-
-
 .subtitulo p {
     font-size: 30px;
   margin-left: 15px;
@@ -20,7 +15,7 @@
   border-radius: 35px;
   color: rgb(255, 255, 255);
   padding: 15px;
-  width: 150px;
+  width: 350px;
   text-align: center; 
   margin-left: auto;
   margin-right: auto;
@@ -44,19 +39,26 @@
 .obj-info{
     font-size: 25px;
     text-align: center;
+    padding-bottom: 70px;
     
 }
 
+.container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 colunas de tamanho igual */
+    grid-template-rows: auto auto; /* 2 linhas */
+    grid-gap: 10px; /* Espaçamento entre os itens */
+    padding: 10px;
+    margin-bottom: 100px;
+ }
 .sub p{
     font-size: 30px;
     margin-left: 15px;
-    margin-top: 20px;
     margin-right: 50px;
     background-color: rgb(243, 28, 28);
     border-radius: 25px;
     color: rgb(255, 255, 255);
-    padding: 5px;
-    width: 250px;
+    width: 350px;
     text-align: center; 
     margin-left: auto;
     margin-right: auto;
@@ -67,8 +69,39 @@
     display: flex;
     gap: 10px;
     font-size: 25px;
-    margin-top: 35px;
-   justify-content: center ;
-    
+    margin-top: 15px;
+    margin-bottom: 20px;
+   justify-content: center;
+
+  
+       
 }
 
+a {
+    display: flex;
+   justify-content: center;
+    text-align: center;
+    font-size: 40px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-bottom: 35px;
+   
+    
+    
+}
+.botao:hover{
+    color: rgb(255, 255, 255);
+}
+.botao{
+    background-color:  rgb(255, 0, 0);
+    border-radius: 15px;
+    color:  rgb(0, 0, 0);
+}
+
+.e2{
+
+    margin-left: 110px;
+}
+.e1{
+    margin-left: 150px;
+}
