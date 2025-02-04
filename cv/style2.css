@@ -29,7 +29,7 @@
     grid-gap: 10px; /* Espaçamento entre os itens */
     padding: 10px;
     margin-bottom: 100px;
-}
+  }
 
 .titulo{
     text-align: center;
@@ -43,4 +43,34 @@
 
 .estudo ul{
     text-align: left;
+}
+
+.pro-info{
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+
+.container2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 colunas de tamanho igual */
+    grid-template-rows: auto auto; /* 2 linhas */
+    grid-gap: 10px; /* Espaçamento entre os itens */
+    padding: 10px;
+    margin-bottom: 100px;
+}
+
+.titulo2{
+    text-align: center;
+    font-size: 25px;
+    margin-left: 200px;
+}
+.estudo2{
+   padding-bottom: 20px;
+    margin-left: 150px;
+  }
+  .titulo3{
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 20px;
 }
