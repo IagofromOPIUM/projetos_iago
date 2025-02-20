@@ -5,72 +5,106 @@
     background-color: rgb(236, 244, 252);
 
 }
-
 .sub h2 {
-    font-size: 30px;
-  margin-left: 15px;
+  font-size: 3vw; /* Usando vw para que o tamanho da fonte seja relativo à largura da tela */
+  margin-left: auto;
+  margin-right: auto;
   margin-top: 20px;
-  margin-right: 50px;
+  margin-bottom: 50px;
   background-color: rgb(243, 28, 28);
   border-radius: 35px;
   color: rgb(255, 255, 255);
   padding: 15px;
-  width: 350px;
-  text-align: center; 
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 50px;
-}
-
-.container{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 colunas de tamanho igual */
-    grid-template-rows: auto auto; /* 2 linhas */
-    grid-gap: 10px; /* Espaçamento entre os itens */
-    padding: 10px;
-    margin-bottom: 100px;
-  }
-
-.titulo{
-    text-align: center;
-    font-size: 25px;
-    margin-bottom: 30px
-}
-.estudo{
+  width: 80%; /* Usando porcentagem para tornar o tamanho mais flexível */
   text-align: center;
-  margin-left: 50px;
 }
 
-.estudo ul{
-    text-align: left;
+.container {
+  display: flex;
+  flex-wrap: wrap; /* Faz os itens quebrarem para a próxima linha em telas menores */
+  gap: 10px; /* Espaçamento entre os itens */
+  padding: 10px;
+  margin-bottom: 100px;
 }
 
-.pro-info{
-    text-align: center;
-    font-size: 20px;
-    padding-bottom: 50px;
+.estudo {
+  flex: 1 1 45%; /* Cada item ocupa 45% do espaço disponível, ajustando-se quando necessário */
+  text-align: center;
+  margin-left: 5vw;
+  margin-right: 5vw;
 }
 
-.container2{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 colunas de tamanho igual */
-    grid-template-rows: auto auto; /* 2 linhas */
-    grid-gap: 10px; /* Espaçamento entre os itens */
-    padding: 10px;
-    margin-bottom: 100px;
+.titulo {
+  text-align: center;
+  font-size: 4vw; /* Usando vw para que o tamanho da fonte seja relativo ao tamanho da tela */
+  margin-bottom: 30px;
+}
+.estudo li{
+  padding-top: 10px;
 }
 
-.titulo2{
-    text-align: center;
-    font-size: 25px;
-    margin-left: 200px;
+.estudo ul {
+  list-style-type: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
-.estudo2{
-   padding-bottom: 20px;
-    margin-left: 150px;
-  }
+
+.pro-info {
+  text-align: center;
+  font-size: 5vw; /* Usando vw para tornar o tamanho da fonte responsivo */
+  padding-bottom: 50px;
+}
+
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 10px;
+  margin-bottom: 100px;
+  justify-content: center;
+}
+
+.titulo2 {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  font-size: 3vw; /* Utilizando viewport width para responsividade */
+  margin-bottom: 20px;
+  margin-top: 40px;
+  padding-left: 5vw; /* Usando vw para tornar o padding mais flexível */
+  padding-right: 5vw;
+  justify-content: center;
+}
+
+.estudo2 {
+  display: flex;
+  flex-wrap: wrap;
+  padding-bottom: 20px;
+  font-size: 20px;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  text-align: center;
+}
+
+.estudo2 ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.estudo2 li {
+  margin-bottom: 10px;
+}
+
+  
+    
+  
   .titulo3{
     text-align: center;
     font-size: 25px;
     padding-bottom: 20px;
+}
+
+.pro-info1{
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 50px;
 }
