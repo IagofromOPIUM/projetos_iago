@@ -1,0 +1,66 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    display: grid;
+    grid-template-areas:
+    'header header aside'
+    'section section aside'
+    'section section aside' ;
+    gap: 10px;
+    grid-auto-rows: 170px 100% ;
+}
+
+header{
+    color: rgb(25, 53, 206);
+    grid-area: header;
+    background-color: rgb(255, 255, 255);
+    margin-left: 30px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+
+aside{
+    grid-area: aside;
+    display: flex;
+    flex-wrap: wrap;
+    color: rgb(231, 234, 236);
+    background-color: rgb(1, 2, 52);
+}
+
+.aside-h2{
+  margin-top: 75px;
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+.aside-info{
+    margin-left: 60px;
+    margin-top: 10px;
+    font-size: 15px;
+
+}
+
+section{
+    grid-area:section;
+    margin-left: 30px;
+    margin-top: 30px;
+    background-color: rgb(255, 255, 255);
+}
+
+.subtitulo{
+    color: rgb(25, 53, 206);
+    font-weight: 750;
+    margin-bottom: 8px;
+    
+  
+}
+.objetivo{
+    font-size: 20px;
+    margin-right: 20px;
+}

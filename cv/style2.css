@@ -6,7 +6,7 @@
 
 }
 .sub h2 {
-  font-size: 3vw; /* Usando vw para que o tamanho da fonte seja relativo à largura da tela */
+  font-size: 2vw; /* Usando vw para que o tamanho da fonte seja relativo à largura da tela */
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
@@ -15,7 +15,7 @@
   border-radius: 35px;
   color: rgb(255, 255, 255);
   padding: 15px;
-  width: 80%; /* Usando porcentagem para tornar o tamanho mais flexível */
+  width: 50%; /* Usando porcentagem para tornar o tamanho mais flexível */
   text-align: center;
 }
 
@@ -36,7 +36,7 @@
 
 .titulo {
   text-align: center;
-  font-size: 4vw; /* Usando vw para que o tamanho da fonte seja relativo ao tamanho da tela */
+  font-size: 3vw; /* Usando vw para que o tamanho da fonte seja relativo ao tamanho da tela */
   margin-bottom: 30px;
 }
 .estudo li{
