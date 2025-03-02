@@ -53,6 +53,11 @@ section{
     background-color: rgb(255, 255, 255);
 }
 
+.data{
+    opacity: 50%;
+
+}
+
 .subtitulo{
     color: rgb(25, 53, 206);
     font-weight: 750;
@@ -63,4 +68,24 @@ section{
 .objetivo{
     font-size: 20px;
     margin-right: 20px;
+    margin-top: 8px;
+}
+.objetivo ul{
+    margin-left: 20px;
+
+}
+
+.sub-2{
+    font-size:20px;
+    font-weight: 750;
+    color: rgb(49, 47, 47);
+    margin-top: 10px;
+   
+}
+.sub-3{
+    font-size:20px;
+    font-weight: 750;
+    color: rgb(49, 47, 47);
+    margin-top: 10px;
+    margin-bottom: 15px;
 }
